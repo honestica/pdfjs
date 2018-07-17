@@ -25,6 +25,7 @@
   },
   "devDependencies": {
     "@types/node": "^9.6.6",
+    "babel-cli": "^6.26.0",
     "tape": "^4.6.3",
     "typescript": "^2.8.3"
   },
