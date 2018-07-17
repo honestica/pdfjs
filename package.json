@@ -12,6 +12,7 @@
   "bugs": "https://github.com/rkusa/pdfjs/issues",
   "main": "lib/",
   "scripts": {
+    "build": "./node_modules/.bin/babel lib -d dist",
     "test": "npm run test:pdfs && npm run test:types",
     "test:pdfs": "node test/index.js",
     "test:types": "tsc --project ./types"
@@ -26,6 +27,7 @@
   "devDependencies": {
     "@types/node": "^9.6.6",
     "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
     "tape": "^4.6.3",
     "typescript": "^2.8.3"
   },
