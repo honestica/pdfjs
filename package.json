@@ -10,7 +10,7 @@
   "license": "MIT",
   "homepage": "https://github.com/rkusa/pdfjs",
   "bugs": "https://github.com/rkusa/pdfjs/issues",
-  "main": "lib/",
+  "main": "dist/",
   "scripts": {
     "build": "./node_modules/.bin/babel lib -d dist",
     "test": "npm run test:pdfs && npm run test:types",
