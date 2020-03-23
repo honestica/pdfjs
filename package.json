@@ -21,7 +21,7 @@
     "opentype.js": "^0.8.0",
     "pako": "^1.0.6",
     "unorm": "^1.4.1",
-    "uuid": "^3.0.1"
+    "uuid": "^7.0.2"
   },
   "devDependencies": {
     "@types/node": "^9.6.6",
